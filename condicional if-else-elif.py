@@ -6,5 +6,5 @@ elif Edad_user>100:
     print("Edad incorrecta")
 else:
     print("Puedes pasar") 
-print("El programa ha finalizado")     
-       
+
+print("El programa ha finalizado")      
