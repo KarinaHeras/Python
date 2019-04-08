@@ -11,7 +11,7 @@ opcion1=(int(input("Introduce un número: ")))
 try:
      print(calculaRaiz(opcion1))   
 
-except ValueError as ErrorDeNumeroNegativo:     
+except ValueError as ErrorDeNumeroNegativo:  # como añadir mi propio error   
     print(ErrorDeNumeroNegativo)
 
 print("Programa terminado")
