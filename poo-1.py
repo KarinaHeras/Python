@@ -30,20 +30,22 @@ def chequeo_interno(self):
     self.aceite="Ok"
     self.puertas="cerradas"
 
-    if (self.gasolina=="Ok" and self.aceite=="Ok" and self.puertas=="cerradas")
+    if (self.gasolina=="Ok" and self.aceite=="Ok" and self.puertas=="cerradas"):
         return True
     else:
-        return False    
+        return False  
+
 miCoche=Coche()  
 print(miCoche.arrancar(True))   
 
-print(miCoche.estado())
+micoche.estado()
 
 print("------A continuacion creamos el seundo objeto-------")
 
-micoche2=coche()
+micoche2=Coche()
 print(micoche2.arrancar(False))
-print(miCoche.estado())
+
+micoche2.estado()
 
 
 
