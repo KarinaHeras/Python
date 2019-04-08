@@ -21,11 +21,11 @@ class Vehiculos():
 
 class Furgoneta(Vehiculos):        
     def carga(self, cargada):
-        self.cargado=cargar
-        if(self.cargado)
+        self.carganda=cargar
+        if (self.cargada)
             return"La furgoneta esta cargada"
         else:
-            return""
+            return"La furgoneta no esta cargada"
 
 class VElectricos():
     def _init_(self):
