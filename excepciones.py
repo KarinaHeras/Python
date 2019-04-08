@@ -20,8 +20,8 @@ while True:
         break
    
     except ValueError:
-    print("Los valores introducidos no son correcto. Intentarlo nuevamente") 
-      
+     print("Los valores introducidos no son correcto. Intentarlo nuevamente") 
+
 operacion=input("Indroduce la opción a realizar (suma,resta,multiplica,divide): ")
 
 if operacion=="suma":
